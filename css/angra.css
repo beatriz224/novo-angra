@@ -36,4 +36,17 @@ color: white;
 text-decoration: none;
 padding: 20px 4%;
 display: flex;
+margin-bottom:20px;
+}
+.item a .text{
+margin-left:40px;
+ }
+.item a .icon>i{
+font-size:30px;
+}
+ul li .item:hover{
+background:#f0f0f0;
+}
+ul li .item{
+transition:2s;
 }
