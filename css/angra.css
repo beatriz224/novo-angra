@@ -14,6 +14,10 @@ nav.menu {
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.884);
     padding: 40px 0px 40px 1%;
+   box-shadow:3px 0 0 #f0f0f0;
+position:fixed;
+top:0;
+left:0;
 }
 
 .barra {
@@ -48,5 +52,6 @@ ul li .item:hover{
 background:#f0f0f0;
 }
 ul li .item{
-transition:2s;
+transition:.1s;
 }
+
