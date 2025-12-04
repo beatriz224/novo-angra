@@ -2,14 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+  font-family: fantasy;
 }
 
 body {
   height: 100%;
 }
 
-header
 nav.menu {
   width: 70px;
   height: 100vh;
@@ -35,12 +34,11 @@ width: 300px;
   color: rgb(211, 72, 72);
   cursor: pointer;
 }
-ul {  font-family: fantasy;
+ul {
   height: 100%;
   list-style-type: none;
 }
 .item a {
-    
   color: rgb(211, 72, 72);
   text-decoration: none;
   padding: 20px 4%;
@@ -61,13 +59,4 @@ ul {  font-family: fantasy;
 }
 .icon{
     margin-left: 2px;
-}
-.descricao{
-    width: 30%;
-    height: 20%;
-    margin: 80px;;
-font-family: sans-serif;
-border: 3px solid black;
-border-radius: 5px;
-box-shadow:0px 0px 5px #580606a6;
 }
